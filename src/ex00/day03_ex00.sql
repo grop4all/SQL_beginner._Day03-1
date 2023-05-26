@@ -5,4 +5,4 @@ select m.pizza_name as pizza_name, m.price as price,
     join pizzeria pi on pv.pizzeria_id = pi.id
     join menu m on pi.id = m.pizzeria_id
     where p.name = 'Kate' and m.price between 800 and 1000
-order by pizza_name, price,pizzeria_name
+order by pizza_name, price,pizzeria_name;
